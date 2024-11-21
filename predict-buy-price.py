@@ -38,8 +38,8 @@ import matplotlib.pyplot as plt
 
 
 
-API_KEY = 'Tk336ytIFldrN1FAfxaS1OYcyzOFZ4Lie7VpctLyTmhGL4QlQxhB3bo9AnmjsEnD'
-API_SECRET = 'fSAofJ8C4o8ErfgLMGocRJMrnZDbDPfQBzuD7iTr1cMHza2PwwUH63bo70LxmdHp'
+API_KEY = 'xxxxxxx'
+API_SECRET = 'xxxxxxxxx'
 
 
 client = Client(API_KEY, API_SECRET)
@@ -730,9 +730,6 @@ plt.legend()
 plt.show()
 
 
-# %%
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-import numpy as np
 
 # Extract actual and predicted prices
 actual_prices = results_df['actual_price'].values
