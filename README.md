@@ -1,6 +1,4 @@
-# Predict-buy-price-bitcoin
 
-# Predict-buy-price-bitcoin
  Cryptocurrency Price Prediction and Backtesting Using Machine Learning and Deep Learning Models
 Overview
 This project aims to predict cryptocurrency prices (specifically for Bitcoin trading on Binance) using advanced machine learning and deep learning models. It incorporates historical and live data from the Binance API, calculates technical indicators, and builds predictive models to forecast price movements. Additionally, the code includes mechanisms for backtesting strategies using both historical and live data.
