@@ -24,19 +24,22 @@ R² Score
 Directional Accuracy (DA)
 Requirements
 Dependencies
+
+
 Install the required libraries:
 
-bash
-Copy code
 pip install xgboost binance pandas numpy tensorflow ta tqdm matplotlib
 pip install python-binance
+
 API Keys
 Generate Binance API keys and replace placeholders in the code:
 
-python
-Copy code
+
 API_KEY = '<Your Binance API Key>'
 API_SECRET = '<Your Binance API Secret>'
+
+
+
 Code Workflow
 1. Historical Data Preparation
 Use fetch_historical_data to retrieve data from Binance.
@@ -84,11 +87,14 @@ Training Loss Curve
 Actual vs Predicted Prices (Backtesting and Live Predictions)
 Saved Models
 The trained model and scalers are saved as model_and_scalers.pkl.
+
 Logs
 Results from live predictions are saved in live_backtesting_results.csv.
+
 Future Improvements
 Incorporate sentiment analysis from Twitter or Reddit for enhanced feature engineering.
 Optimize hyperparameters using techniques like grid search.
 Add support for multiple cryptocurrencies.
+
 Disclaimer
 This project is for educational purposes only. Use with caution when trading cryptocurrencies. Always perform thorough research and consult financial advisors before making investment decisions.
