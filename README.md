@@ -32,10 +32,11 @@ pip install xgboost binance pandas numpy tensorflow ta tqdm matplotlib
 pip install python-binance
 
 API Keys
-Generate Binance API keys and replace placeholders in the code:
+Generate Binance API keys 
 
 
 API_KEY = '<Your Binance API Key>'
+
 API_SECRET = '<Your Binance API Secret>'
 
 
