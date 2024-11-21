@@ -1,5 +1,4 @@
-
- Cryptocurrency Price Prediction and Backtesting Using Machine Learning and Deep Learning Models
+ReadMe: Cryptocurrency Price Prediction and Backtesting Using Machine Learning and Deep Learning Models
 Overview
 This project aims to predict cryptocurrency prices (specifically for Bitcoin trading on Binance) using advanced machine learning and deep learning models. It incorporates historical and live data from the Binance API, calculates technical indicators, and builds predictive models to forecast price movements. Additionally, the code includes mechanisms for backtesting strategies using both historical and live data.
 
@@ -72,10 +71,11 @@ Performs backtesting on historical and live data to evaluate model performance.
 
 Backtesting Results
 Historical Backtesting Metrics:
-Mean Squared Error (MSE): 2313.1993
-Root Mean Squared Error (RMSE): 48.0957
-Mean Absolute Error (MAE): 27.0362
-R² Score: 0.9064
+Mean Squared Error (MSE): 7625.2237
+Root Mean Squared Error (RMSE): 87.3225
+R² Score: 0.9918
+Mean Absolute Percentage Error (MAPE): 0.07%
+Directional Accuracy (DA): 98.08%
 Live Backtesting Metrics:
 
 Outputs
